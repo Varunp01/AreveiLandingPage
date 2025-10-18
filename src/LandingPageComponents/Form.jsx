@@ -51,12 +51,16 @@ export default function Form() {
         <div className="mb-4">
           <label className="block text-gray-300 mb-1">Phone Number</label>
           <input
-            type="tel"
-            value={number}
-            onChange={(e) => setNumber(e.target.value)}
-            placeholder="Enter your number"
-            className="w-full p-3 rounded-lg bg-[#2b2b2b] text-white focus:outline-none focus:ring-2 focus:ring-[#9BE13F]"
-          />
+  type="tel"
+  value={number}
+  onChange={(e) => {
+    const onlyNums = e.target.value.replace(/[^0-9]/g, "");
+    setNumber(onlyNums);
+  }}
+  placeholder="Enter your number"
+  className="w-full p-3 rounded-lg bg-[#2b2b2b] text-white focus:outline-none focus:ring-2 focus:ring-[#9BE13F]"
+/>
+
         </div>
 
         {/* Email */}
@@ -111,7 +115,7 @@ export default function Form() {
         </div>
 
         {/* Submit */}
-        <button type="submit" className="w-full py-3 rounded-lg bg-[#9BE13F80] hover:bg-[#9BE13F] text-black font-semibold transition-colors duration-200" >
+        <button type="submit" className="w-full py-3 rounded-lg bg-[#9BE13F80] hover:bg-[#9BE13F] text-black font-semibold transition-colors duration-200 cursor-pointer" >
           Submit
         </button>
       </form>
