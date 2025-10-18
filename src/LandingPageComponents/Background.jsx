@@ -30,8 +30,8 @@ function Background() {
   return (
     <>
     <div className="fixed inset-0 -z-10 bg-[#1C1C1C]">
-      {/* <div className="fixed inset-0 pointer-events-none transition-opacity duration-75" style={spotlightStyle} aria-hidden="true" ></div> */}
-      {/* <div className=" fixed h-[100%] w-[100%] top-[20%] right-5 rounded-full bg-[radial-gradient(circle,rgba(135,135,135,0.1)_0%,rgba(0,0,0,0)_100%)]"></div> */}
+      <div className="fixed inset-0 pointer-events-none transition-opacity duration-75" style={spotlightStyle} aria-hidden="true" ></div>
+      <div className=" fixed h-[100%] w-[100%] top-[20%] right-5 rounded-full bg-[radial-gradient(circle,rgba(135,135,135,0.1)_0%,rgba(0,0,0,0)_100%)]"></div>
       <div className=" fixed h-[500px] w-[500px] top-[20%] md:-left-[5%] left-0 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.1)_0%,transparent_50%)]"></div>
       <div className=" fixed h-[300px] w-[300px] top-[70%] right-0 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.1)_0%,transparent_50%)]"></div>
       

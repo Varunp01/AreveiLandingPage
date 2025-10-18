@@ -3,33 +3,33 @@ import React, { useState, useEffect, useRef } from "react";
 const carouselData = [
   {
     id: 1,
-    mainUrl: 'https://placehold.co/800x450/1e3a8a/ffffff?text=Mountains+Lake',
-    thumbUrl: 'https://placehold.co/60x60/1e3a8a/ffffff?text=1',
-    alt: 'Mountain lake view'
+    mainUrl: 'https://placehold.co/800x450/1e3a8a/ffffff?text=Vinay+Shakyawar',
+    thumbUrl: 'https://placehold.co/60x60/1e3a8a/ffffff?text=VS',
+    alt: 'FOUNDER'
   },
   {
     id: 2,
-    mainUrl: 'https://placehold.co/800x450/065f46/ffffff?text=Forest+Path',
-    thumbUrl: 'https://placehold.co/60x60/065f46/ffffff?text=2',
-    alt: 'Forest path in morning light'
+    mainUrl: 'https://placehold.co/800x450/065f46/ffffff?text=Varun+Pandey',
+    thumbUrl: 'https://placehold.co/60x60/065f46/ffffff?text=VP',
+    alt: 'DEVELOPER'
   },
   {
     id: 3,
-    mainUrl: 'https://placehold.co/800x450/9d174d/ffffff?text=Desert+Sunset',
-    thumbUrl: 'https://placehold.co/60x60/9d174d/ffffff?text=3',
-    alt: 'Vibrant desert sunset'
+    mainUrl: 'https://placehold.co/800x450/9d174d/ffffff?text=Rishabh+Katiyar',
+    thumbUrl: 'https://placehold.co/60x60/9d174d/ffffff?text=RK',
+    alt: 'DEVELOPER'
   },
   {
     id: 4,
-    mainUrl: 'https://placehold.co/800x450/b45309/ffffff?text=City+Skyline',
-    thumbUrl: 'https://placehold.co/60x60/b45309/ffffff?text=4',
-    alt: 'Modern city skyline'
+    mainUrl: 'https://placehold.co/800x450/b45309/ffffff?text=Karthik+Shakyawar',
+    thumbUrl: 'https://placehold.co/60x60/b45309/ffffff?text=KS',
+    alt: 'DEVELOPER'
   },
   {
     id: 5,
-    mainUrl: 'https://placehold.co/800x450/4c1d95/ffffff?text=Ocean+Waves',
-    thumbUrl: 'https://placehold.co/60x60/4c1d95/ffffff?text=5',
-    alt: 'Crashing ocean waves'
+    mainUrl: 'https://placehold.co/800x450/4c1d95/ffffff?text=Bishwa+Vijay',
+    thumbUrl: 'https://placehold.co/60x60/4c1d95/ffffff?text=BV',
+    alt: 'CTO'
   },
 ];
 
@@ -45,7 +45,7 @@ export default function Teams() {
   const currentImage = carouselData[currentIndex];
 
   return (
-    <section className="mt-20 mb-24 max-w-6xl mx-auto px-6" id="teams_section">
+    <section className="mt-20 mb-24 max-w-6xl mx-auto px-6 " >
       <div className="flex flex-col lg:flex-row items-center gap-5">
         <div className="lg:w-1/2 w-full order-1 lg:order-1">
           <div className="w-full rounded-xl overflow-hidden py-6 md:py-8">
@@ -82,11 +82,11 @@ export default function Teams() {
         <div className=" fontInter lg:w-1/2 w-full text-left order-2 lg:order-2 md:px-2">
           {/* Heading */}
           <h2 className="fontInter text-3xl md:text-5xl font-bold text-white mb-4">
-            A Collaborative Team with Creative  People!
+            Architects of Your Digital Growth
           </h2>
           {/* Subheading */}
           <p className="fontInter text-base md:text-xl text-white mb-6 font-medium">
-            <span className='text-[#9BE13F]'>Collaborate closely with our experienced and innovative creative team</span> to bring your brand story to life. We work together to develop unique and impactful solutions.
+            A unified team of <span className='text-[#9BE13F]'>tech experts and marketing strategists</span>. We build and optimize the digital systems that turn your potential into <span className='text-[#9BE13F]'>profit</span>.
           </p>
           <div className="grid grid-cols-1 gap-2">
             {/* //cards */}

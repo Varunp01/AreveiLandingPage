@@ -5,68 +5,69 @@ import { ChevronDown, X } from 'lucide-react';
 const initialGridData = [
   {
     id: 0,
-    nameinitials: 'AJ',
-    name: 'Alex Johnson',
-    designation: 'Founder, GreenWave Apparel',
-    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> transformed our outdated <span class="text-[#9BE13F] font-semibold">Shopify</span> store into a modern, high-converting ecommerce site. Their team was quick, creative, and deeply understood our brand’s aesthetic. We saw a 35% increase in sales within the first month after launch!',
+    nameinitials: 'RS',
+    name: 'Rohit Sharma',
+    designation: 'Founder, UrbanThreads India',
+    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> redesigned our <span class="text-[#9BE13F] font-semibold">Shopify</span> store with a perfect blend of aesthetics and performance. The new site reflects our brand beautifully, and we’ve seen a 40% increase in conversions within weeks.',
   },
   {
     id: 1,
     nameinitials: 'BK',
     name: 'Beatrice Kim',
-    designation: 'Marketing Director, Solis Energy',
+    designation: 'Marketing Director, Solis Energy (USA)',
     content: 'The <span class="text-[#9BE13F] font-semibold">Email Marketing</span> strategy developed by <span class="text-[#9BE13F] font-semibold">AREVEI</span> completely revamped our customer engagement. Their automation and segmentation approach helped us achieve a 50% higher open rate and better ROI across all campaigns.',
   },
   {
     id: 2,
-    nameinitials: 'CL',
-    name: 'Chris Lee',
-    designation: 'CEO, UrbanGrow',
-    content: 'We hired <span class="text-[#9BE13F] font-semibold">AREVEI</span> to rebuild our website using the <span class="text-[#9BE13F] font-semibold">MERN Stack</span>. The performance boost and clean design have impressed our clients and investors alike. Their technical expertise is top-tier and communication was seamless throughout.',
+    nameinitials: 'AP',
+    name: 'Aarav Patel',
+    designation: 'CTO, TechNova Solutions',
+    content: 'We partnered with <span class="text-[#9BE13F] font-semibold">AREVEI</span> for a <span class="text-[#9BE13F] font-semibold">MERN Stack</span> rebuild of our internal platform. The new dashboard is faster, scalable, and perfectly aligned with our workflow. Their professionalism and tech depth truly stood out.',
   },
   {
     id: 3,
     nameinitials: 'DP',
     name: 'Diana Prince',
-    designation: 'Head of Operations, FitNation',
+    designation: 'Head of Operations, FitNation (UK)',
     content: 'From design to deployment, <span class="text-[#9BE13F] font-semibold">AREVEI</span> handled everything for our <span class="text-[#9BE13F] font-semibold">WordPress</span> site flawlessly. They delivered on time, optimized for SEO, and made our content management effortless. Highly recommended for startups and growing businesses!',
   },
   {
     id: 4,
-    nameinitials: 'EH',
-    name: 'Ethan Hunt',
-    designation: 'Co-founder, BoldPeak Digital',
-    content: 'Working with <span class="text-[#9BE13F] font-semibold">AREVEI</span> on multiple client projects has been a game changer. Their <span class="text-[#9BE13F] font-semibold">MERN Stack</span> developers are exceptionally skilled, and their attention to detail ensures every product feels polished and professional.',
+    nameinitials: 'NS',
+    name: 'Nikita Sinha',
+    designation: 'Digital Marketing Head, Bloom Beauty India',
+    content: 'Our <span class="text-[#9BE13F] font-semibold">Email Campaigns</span> from <span class="text-[#9BE13F] font-semibold">AREVEI</span> achieved an outstanding engagement rate. Their creatives and audience targeting felt deeply personal — it’s like they understood our customers better than we did!',
   },
   {
     id: 5,
-    nameinitials: 'FG',
-    name: 'Fi\ona Glenanne',
-    designation: 'Ecommerce Manager, LuxeWell Living',
-    content: 'Our <span class="text-[#9BE13F] font-semibold">Shopify</span> redesign by <span class="text-[#9BE13F] font-semibold">AREVEI</span> exceeded expectations. The user experience improvements directly contributed to a smoother checkout flow and higher retention. The team’s dedication and creativity were unmatched.',
+    nameinitials: 'CL',
+    name: 'Chris Lee',
+    designation: 'CEO, UrbanGrow (Singapore)',
+    content: 'We hired <span class="text-[#9BE13F] font-semibold">AREVEI</span> to rebuild our website using the <span class="text-[#9BE13F] font-semibold">MERN Stack</span>. The performance boost and clean design have impressed our clients and investors alike. Their technical expertise is top-tier and communication was seamless throughout.',
   },
   {
     id: 6,
-    nameinitials: 'GK',
-    name: 'George Kirk',
-    designation: 'Entrepreneur & Podcast Host',
-    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> built my personal <span class="text-[#9BE13F] font-semibold">WordPress</span> site from scratch and made it look like a premium media brand. Their mix of design flair and SEO knowledge made the launch effortless and impactful. I couldn’t have asked for a better team!',
+    nameinitials: 'PK',
+    name: 'Priya Khanna',
+    designation: 'Co-founder, Elevate Digital Studio',
+    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> helped us reimagine our <span class="text-[#9BE13F] font-semibold">WordPress</span> portfolio website. Their UI/UX input made the design intuitive and impactful. The team is responsive, insightful, and focused on long-term brand value.',
   },
   {
     id: 7,
-    nameinitials: 'HM',
-    name: 'Hannah Montana',
-    designation: 'Brand Manager, PureGlow Cosmetics',
-    content: 'The <span class="text-[#9BE13F] font-semibold">AREVEI Email Campaigns</span> helped us reconnect with dormant customers through personalized journeys. Their creative copywriting and data-driven approach led to consistent month-over-month growth in engagement.',
+    nameinitials: 'AJ',
+    name: 'Alex Johnson',
+    designation: 'Founder, GreenWave Apparel (USA)',
+    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> transformed our outdated <span class="text-[#9BE13F] font-semibold">Shopify</span> store into a modern, high-converting ecommerce site. Their team was quick, creative, and deeply understood our brand’s aesthetic. We saw a 35% increase in sales within the first month after launch!',
   },
   {
     id: 8,
-    nameinitials: 'IM',
-    name: 'Ian Malcolm',
-    designation: 'CTO, NextPhase Analytics',
-    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> delivered a <span class="text-[#9BE13F] font-semibold">Full-Stack</span> web app for our analytics dashboard using the MERN stack. The performance, UI, and scalability are fantastic. Their team feels like an extension of ours — reliable, responsive, and visionary.',
+    nameinitials: 'VK',
+    name: 'Vikram Kapoor',
+    designation: 'Product Manager, Innovent Systems',
+    content: '<span class="text-[#9BE13F] font-semibold">AREVEI</span> delivered a robust <span class="text-[#9BE13F] font-semibold">Full-Stack</span> web app tailored to our analytics needs. The code quality and UI polish were exceptional, and their proactive support made the whole process seamless.',
   },
 ];
+
 
 
 function Testimonials() {
@@ -78,16 +79,16 @@ function Testimonials() {
   const visibleData = showAll ? initialGridData : initialGridData.slice(0, 4);
   return (
     <>
-      <section className="mt-20 mb-24 max-w-6xl mx-auto px-6" id="testimonials_section">
+      <section className="mt-20 mb-24 max-w-6xl mx-auto px-6" >
         <div className="items-center gap-5">
-          <div className=" fontInter w-full text-center mx-auto md:w-1/2">
+          <div className=" fontInter w-full text-center mx-auto md:w-2/3">
             {/* Heading */}
             <h2 className="fontInter text-3xl md:text-5xl font-bold text-white mb-4">
-              Trusted by World’s Fastest  Evolving Brands!
+              Proof in the Performance: Our Partnerships, Their Growth
             </h2>
             {/* Subheading */}
             <p className="fontInter text-base md:text-xl text-white mb-4 font-medium">
-              <span className='text-[#9BE13F]'>Discover how we can elevate your brand</span> and drive measurable results. We specialize in crafting unique brand experiences.
+              <span className='text-[#9BE13F]'>We build more than systems; we build trust.</span> See the real impact of working with a partner dedicated to foundational web expertise and precise email conversions.
             </p>
           </div>
           {/* --- Expanding Grid Section --- */}

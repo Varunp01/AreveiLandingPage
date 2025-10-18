@@ -3,4 +3,31 @@
 }
 *{
 font-family: "Inter", sans-serif !important;
+scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+/* Apply to the entire page body */
+body::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+  height: 12px; /* Height for horizontal scrollbars */
+}
+
+/* Style the track (the area the thumb moves along) */
+body::-webkit-scrollbar-track {
+  background: #9BE13F50; /* Gray-800 for dark mode track */
+  border-radius: 10px;
+}
+
+/* Style the thumb (the draggable handle) */
+body::-webkit-scrollbar-thumb {
+  background-color: #9BE13F90; /* Indigo-600 */
+  border-radius: 10px;
+  border: 3px solid #1f2937; /* Padding around the thumb */
+}
+
+/* Style the thumb on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #9BE13F; /* Indigo-500 for hover effect */
 }

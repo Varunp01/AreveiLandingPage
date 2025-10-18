@@ -6,12 +6,12 @@ function Connect() {
 
   return (
     <>
-      <section className="mt-20 mb-24 max-w-6xl mx-auto px-6" id="connect_section">
+      <section className="mt-20 max-w-6xl mx-auto px-6" >
         <div className="bg-[#222222] p-2 rounded-4xl">
           <div className="flex flex-col lg:flex-row items-center gap-3">
             <div className="lg:w-1/2 w-full h-[100%] order-1 lg:order-1 bg-[#1C1C1C] rounded-4xl px-4 py-8 grid md:grid-rows-2 grid-rows-2">
               <div className="div1 row-start-1">
-                <a className="fontInter text-[#9BE13F] border-1 border-[#9BE13F] hover:text-black transition-all duration-300 ease-in-out hover:bg-[#9BE13F] rounded-4xl px-8 py-3 font-semibold text-lg transform hover:scale-105 active:scale-100" >
+                <a className="fontInter cursor-pointer text-[#9BE13F] border-1 border-[#9BE13F] hover:text-black transition-all duration-300 ease-in-out hover:bg-[#9BE13F] rounded-4xl px-8 py-3 font-semibold text-lg transform hover:scale-105 active:scale-100" >
                   Connect with us
                 </a>
                 <img src="/AR Wordmark Color.png" alt="Logo" className='my-10 pl-3 h-12 md:h-16' />
@@ -24,7 +24,7 @@ function Connect() {
                 <p className="fontInter text-base md:text-xl text-white font-medium mb-8">
                   <span className='text-[#9BE13F]'>Join us and learn more</span> about how we handle every single project with modern solutions.
                 </p>
-                <a href="/" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-[#9BE13F] hover:bg-white rounded-4xl px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
+                <a href="/#Form_Section" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-[#9BE13F] hover:bg-white rounded-4xl px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
                   Get a Quote
                 </a>
               </div>
@@ -36,7 +36,7 @@ function Connect() {
                 </h2>
                 {/* Subheading */}
                 <p className="fontInter text-base md:text-xl text-white font-medium mb-8">
-                  <span className='text-[#9BE13F]'>Join us and learn more</span> about how we handle every single project with modern solutions.
+                  Need a <span className='text-[#9BE13F]'>fast Website or a high-converting Email strategy?</span> Let's build your unified growth plan.
                 </p>
               </div>
               <div className="div2 bg-[#1C1C1C] rounded-4xl px-4 py-8">
@@ -51,11 +51,11 @@ function Connect() {
                         WhatsApp
                       </p>
                       <p className="text-sm md:text-base font-normal text-gray-500 ">
-                        +91 999 999 9991
+                        +91 962 544 0855
                       </p>
                     </div>
                     <br />
-                    <a href="/" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
+                    <a href="https://wa.me/919625440855" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
                       Message Us
                     </a>
                   </div>
@@ -71,11 +71,14 @@ function Connect() {
                         Email
                       </p>
                       <p className="text-sm md:text-base font-normal text-gray-500 ">
-                        abc@xyz.com
+                        admin@arevei.com
                       </p>
                     </div>
                     <br />
-                    <a href="/" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
+                    <a href="mailto:admin@arevei.com" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl flex md:hidden items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
+                      Mail Us
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=admin@arevei.com&su=ContactViaWebsite" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl md:flex hidden items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
                       Mail Us
                     </a>
                   </div>
@@ -91,11 +94,11 @@ function Connect() {
                         Custom Form
                       </p>
                       <p className="text-sm md:text-base font-normal text-gray-500 ">
-                        +91 999 999 9991
+                        Click to go to the form
                       </p>
                     </div>
                     <br />
-                    <a href="/" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
+                    <a href="/#Form_Section" className="fontInter text-gray-800 transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] rounded-4xl flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
                       Open Form
                     </a>
                   </div>

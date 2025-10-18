@@ -66,29 +66,29 @@ const AnimatedStatCard = ({ endValue, label, prefix="", duration = 2000 }) => {
 
 export default function About() {
   const stats = [
-    { id: 1, endValue: 200, prefix: "", label: "Projects Completed" },
-    { id: 2, endValue: 345, prefix: "", label: "Happy Clients" },
-    { id: 3, endValue: 231, prefix: "", label: "Active Users" },
-    { id: 4, endValue: 455, prefix: "", label: "Hours Dedicated" },
+    { id: 1, endValue: 23, prefix: "%", label: "Conversion Rate" },
+    { id: 2, endValue: 92, prefix: "+", label: "Client Websites" },
+    { id: 3, endValue: 95, prefix: "%", label: "Retention Rate" },
+    { id: 4, endValue: 10, prefix: "M+", label: "Total Revenue Driven" },
   ];
 
   return (
-    <section className="mt-20 mb-24 max-w-6xl mx-auto px-6" id="about_section">
+    <section className="mt-20 mb-24 max-w-6xl mx-auto px-6">
       <div className="flex flex-col lg:flex-row items-center gap-10">
         <div className="lg:w-1/2 w-full order-1 lg:order-2">
-          <img src="https://placehold.co/800x600/1e0a3b/a78bfa?text=Modern+Design" alt="Abstract visualization of a modern interface" className="w-full h-auto rounded-xl shadow-2xl border-2 border-purple-500/30 object-cover transition-transform duration-500 hover:scale-[1.01]" />
-          <a href="/" className="hidden fontInter mt-10 text-gray-800 transition-all duration-300 ease-in-out bg-[#9BE13F] hover:bg-white rounded-4xl md:flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
+          <img src="https://placehold.co/800x600/1e0a3b/a78bfa?text=About+Us" alt="Abstract visualization of a modern interface" className="w-full h-auto rounded-xl shadow-2xl border-2 border-purple-500/30 object-cover transition-transform duration-500 hover:scale-[1.01]" />
+          <a href="/#Services_Section" className="hidden fontInter mt-10 text-gray-800 transition-all duration-300 ease-in-out bg-[#9BE13F] hover:bg-white rounded-4xl md:flex items-center justify-center px-8 py-3 shadow-xl font-semibold text-lg transform hover:scale-105 active:scale-100" >
             Services
           </a>
         </div>
         <div className=" fontInter lg:w-1/2 w-full text-left order-2 lg:order-1">
           {/* Heading */}
           <h2 className="fontInter text-3xl md:text-5xl font-bold text-white mb-4">
-            A Powerful Agency with Corporate Solutions
+            A Powerful Agency With Real Results That Drive Growth
           </h2>
           {/* Subheading */}
           <p className="fontInter text-base md:text-xl text-white mb-6 font-medium">
-            <span className='text-[#9BE13F]'>Discover how we can elevate your brand</span> and drive measurable results. We specialize in crafting unique brand experiences that resonate with your audience.
+            <span className='text-[#9BE13F]'>We don't just build websites and send emails</span>; we engineer integrated systems. Our success is measured by the growth of your business, built on a foundation of technical mastery and strategic conversion design.
           </p>
           <div className="grid grid-cols-2 gap-2">
             {stats.map(stat => (

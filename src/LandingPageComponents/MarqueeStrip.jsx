@@ -3,11 +3,11 @@ import '../App.css'
 
 const MarqueeStrip = () => {
   const sentences = [
-    "The fixed background creates an immersive depth effect.",
-    "Mouse tracking spotlights your every move.",
-    "Modern UI components enhance the user experience.",
-    "Scroll down to explore the dynamic effects.",
-    "Built with React, JSX, and Tailwind CSS."
+    "High-Performance Websites Engineered for Speed and Conversion.",
+    "Certified Experts in HubSpot, Zoho, and Development Stack.",
+    "Converting Subscribers to Buyers with Precision Email Strategy.",
+    "Avg. Client Revenue Growth: 50% Per Month.",
+    "Seamless Strategy: Where Development and Marketing Unite for Growth."
   ];
 
   // Duration controls the speed (lower is faster)

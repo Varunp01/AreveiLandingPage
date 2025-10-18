@@ -22,12 +22,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="absolute w-full px-3 pt-2 z-1" id='Navbar'>
+      <nav className="fixed w-full px-3 pt-2 z-1 bg-[linear-gradient(to_bottom,#1C1C1C_0%,#1C1C1C_25%,#1C1C1C_50%,transparent_75%,transparent_100%)]" id='Navbar_Section'>
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <div className="">
-                <a href="/" className="">
+                <a href="/#Home_Section" className="">
                   <img src="/AR Wordmark Color.png" alt="Logo" className='h-6 md:h-7' />
                 </a>
               </div>
@@ -35,23 +35,23 @@ const Navbar = () => {
             <div className="flex items-center">
               {/* Desktop Navigation Links */}
               <div className="hidden md:flex space-x-8 rounded-4xl border-1 border-[#9BE13F]">
-                <a href="/" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
+                <a href="/#Home_Section" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
                   Home
                 </a>
-                <a href="/" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
+                <a href="/#About_Section" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
                   About Us
                 </a>
-                <a href="/" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
+                <a href="/#Services_Section" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
                   Services
                 </a>
-                <a href="/" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
+                <a href="/#Connect_Section" className="fontInter text-base md:text-xl font-medium text-white hover:text-black transition-all duration-300 ease-in-out  hover:bg-[#9BE13F] py-1.5 px-3 rounded-4xl flex items-center justify-center">
                   Contact Us
                 </a>
               </div>
             </div>
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <a href="/" className="fontInter text-base md:text-xl font-semibold text-gray-800  transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] py-3 px-4 rounded-4xl flex items-center justify-center">
+                <a href="/#Form_Section" className="fontInter text-base md:text-xl font-semibold text-gray-800  transition-all duration-300 ease-in-out bg-white hover:bg-[#9BE13F] py-3 px-4 rounded-4xl flex items-center justify-center">
                   Get a Quote
                 </a>
               </div>
@@ -72,10 +72,10 @@ const Navbar = () => {
 
         <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-black rounded-2xl`} id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href=" " className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">Home</a>
-            <a href=" " className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">About Us</a>
-            <a href=" " className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">Services</a>
-            <a href=" " className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">Contact Us</a>
+            <a href="/#Home_Section" onClick={() => setIsOpen(!isOpen)} className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">Home</a>
+            <a href="/#About_Section" onClick={() => setIsOpen(!isOpen)} className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">About Us</a>
+            <a href="/#Services_Section" onClick={() => setIsOpen(!isOpen)} className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">Services</a>
+            <a href="/#Connect_Section" onClick={() => setIsOpen(!isOpen)} className="block text-gray-200 hover:bg-[#9BE13F] transition-all duration-300 ease-in-out px-3 py-2 rounded-md font-medium bg-gray-800">Contact Us</a>
           </div>
         </div>
       </nav>
